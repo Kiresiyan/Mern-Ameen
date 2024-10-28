@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Poppins&family=Rethink+Sans:ital@1&family=Roboto:ital,wght@0,100;0,300;0,500;1,400;1,900&display=swap');
+
+:root {
+  --font-family: "Playwrite GB S", cursive;
+}
+
+body {
+  font-family: var(--font-family);
+}
+
+.ant-typography,
+.ant-btn,
+.ant-input,
+.ant-select,
+.ant-modal-content,
+.ant-menu-item,
+.ant-form-item {
+  font-family: var(--font-family) !important;
+}
